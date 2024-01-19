@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#2C3E50;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+    font-family: 'Lemon', serif;
+}
+.container1{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    height: 62vmin;
+    width: 62vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:1vmin
+}
+.box{
+    height: 20vmin;
+    width: 20vim;
+    border-radius: 10%;
+    background-color: aliceblue;
+    font-size: 5rem;
+    color: black;
+}
+.msg{
+    color:#F8FAE5;
+    font-size: 4rem;
+    font-family: 'Lemon', serif;
+}
+.message{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:3rem;
+}
+.resrt{
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 25%;
+    font-size: 1.5rem;
+    background-color:#D3D3D3;
+    font-family:'Lemon', serif;
+}
+.ngame{
+    height: 10vmin;
+    width: 20vmin;
+    border-radius: 25%;
+    font-size: 1.5rem;
+    background-color:#D3D3D3;
+    font-family:'Lemon', serif;;
+}
+.hide{
+    display: none;
+}
