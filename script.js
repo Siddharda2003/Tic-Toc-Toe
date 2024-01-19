@@ -70,7 +70,7 @@ const checkWinner=()=>{
 const declareWinner=(pos)=>{
     msg.innerText=`Congratulations!\nPlayer ${pos} won the game`;
     message.classList.remove("hide");
-    disbaleboxes;
+    disbaleboxes();
 };
 restart.addEventListener("click",reset);
 newgame.addEventListener("click",reset);
