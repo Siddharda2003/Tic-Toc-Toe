@@ -12,7 +12,7 @@ h1{
     font-family: 'Lemon', serif;
 }
 .container1{
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,7 +40,7 @@ h1{
     font-family: 'Lemon', serif;
 }
 .message{
-    height: 50vmin;
+    height: 30vmin;
     display: flex;
     justify-content: center;
     align-items: center;
