@@ -8,7 +8,7 @@ body{
 }
 h1{
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 10vmin;
     font-family: 'Lemon', serif;
 }
 .container1{
@@ -36,7 +36,7 @@ h1{
 }
 .msg{
     color:#F8FAE5;
-    font-size: 4rem;
+    font-size: 4vmin;
     font-family: 'Lemon', serif;
 }
 .message{
