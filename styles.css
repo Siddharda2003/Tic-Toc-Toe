@@ -31,7 +31,7 @@ h1{
     width: 20vim;
     border-radius: 10%;
     background-color: aliceblue;
-    font-size: 5rem;
+    font-size: 15vmin;
     color: black;
 }
 .msg{
@@ -40,26 +40,28 @@ h1{
     font-family: 'Lemon', serif;
 }
 .message{
-    height: 100vh;
+    height: 100vmin;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     gap:3rem;
 }
 .resrt{
-    height: 7vmin;
+    height: 12vmin;
     width: 20vmin;
     border-radius: 25%;
-    font-size: 1.5rem;
+    font-size: 4vmin;
     background-color:#D3D3D3;
     font-family:'Lemon', serif;
 }
 .ngame{
-    height: 10vmin;
+    height: 12vmin;
     width: 20vmin;
     border-radius: 25%;
-    font-size: 1.5rem;
+    font-size: 4vmin;
     background-color:#D3D3D3;
     font-family:'Lemon', serif;;
 }
