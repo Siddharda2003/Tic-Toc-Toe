@@ -41,7 +41,6 @@ h1{
 }
 .message{
     height: 100vmin;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
